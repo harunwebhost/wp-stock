@@ -99,21 +99,8 @@
 
 	<div class="custom_html_section"></div>
 <?php $asset_directory = get_bloginfo('template_url');?>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/jquery-1.11.3.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/jquery-migrate.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/revslider/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
-
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/__packed.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/custom/_main.js'></script>
+<script type='text/javascript' src='<?php echo $asset_directory;?>/js/custom/_main.js'></script>
 	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/custom/core.utils.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/custom/core.init.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/custom/shortcodes.min.js'></script>
-
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/datepicker.min.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/calculated-fields-form/js/jQuery.stringify.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/calculated-fields-form/js/jquery.validate.js'></script>
-	<script type='text/javascript' src='<?php echo $asset_directory;?>/js/vendor/calculated-fields-form/js/fbuilder.js'></script>
-
+<?php wp_footer(); ?>
 </body>
 </html>

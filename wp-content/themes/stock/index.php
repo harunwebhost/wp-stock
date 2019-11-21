@@ -522,7 +522,7 @@ $asset_directory = get_bloginfo('template_url');
 											<div class="post_featured">
 												<div class="post_thumb" data-image="images/1150x767.png" data-title="Ten Facts You Might Not Know About Stamp Duty">
 													<a class="hover_icon_link" href="#">
-														<img alt="Ten Facts You Might Not Know About Stamp Duty" src="images/365x240.png">
+														<img alt="Ten Facts You Might Not Know About Stamp Duty" src="<?php echo $asset_directory?>/images/365x240.png">
 														<div class="img-hover">
 															<span class="hover_icon"></span>
 														</div>
@@ -546,7 +546,7 @@ $asset_directory = get_bloginfo('template_url');
 											<div class="post_featured">
 												<div class="post_thumb" data-image="images/1150x767.png" data-title="Muni Bonds, Taxable Bonds or CDs: Which is Best?">
 													<a class="hover_icon_link" href="#">
-														<img alt="Muni Bonds, Taxable Bonds or CDs: Which is Best?" src="images/365x240.png">
+														<img alt="Muni Bonds, Taxable Bonds or CDs: Which is Best?" src="<?php echo $asset_directory?>/images/365x240.png">
 														<div class="img-hover">
 															<span class="hover_icon"></span>
 														</div>
@@ -570,7 +570,7 @@ $asset_directory = get_bloginfo('template_url');
 											<div class="post_featured">
 												<div class="post_thumb" data-image="images/1150x767.png" data-title="The Five Top Financial Advisor Credentials">
 													<a class="hover_icon_link" href="#">
-														<img alt="The Five Top Financial Advisor Credentials" src="images/365x240.png">
+														<img alt="The Five Top Financial Advisor Credentials" src="<?php echo $asset_directory?>/images/365x240.png">
 														<div class="img-hover">
 															<span class="hover_icon"></span>
 														</div>
